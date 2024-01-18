@@ -5,4 +5,16 @@
 //  Created by Sashu Ponnaganti on 1/17/24.
 //
 
-import Foundation
+import SwiftUI
+
+@main
+struct RestaurantApp: App {
+    @StateObject var order = Order()
+
+    var body: some Scene {
+        WindowGroup {
+            MainView()
+                .environmentObject(order)
+        }
+    }
+}

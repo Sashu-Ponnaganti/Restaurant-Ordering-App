@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C2D27652B58C47000268FA2 /* Restaurant_Ordering_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27642B58C47000268FA2 /* Restaurant_Ordering_AppApp.swift */; };
 		8C2D27672B58C47000268FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27662B58C47000268FA2 /* ContentView.swift */; };
 		8C2D27692B58C47100268FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D27682B58C47100268FA2 /* Assets.xcassets */; };
 		8C2D276C2B58C47100268FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D276B2B58C47100268FA2 /* Preview Assets.xcassets */; };
 		8C2D27762B58C47100268FA2 /* Restaurant_Ordering_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27752B58C47100268FA2 /* Restaurant_Ordering_AppTests.swift */; };
 		8C2D27802B58C47100268FA2 /* Restaurant_Ordering_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D277F2B58C47100268FA2 /* Restaurant_Ordering_AppUITests.swift */; };
 		8C2D27822B58C47100268FA2 /* Restaurant_Ordering_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27812B58C47100268FA2 /* Restaurant_Ordering_AppUITestsLaunchTests.swift */; };
+		8C2D278F2B58C4A500268FA2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D278E2B58C4A500268FA2 /* CheckoutView.swift */; };
+		8C2D27912B58C4B400268FA2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27902B58C4B400268FA2 /* Helper.swift */; };
+		8C2D27952B58C4DD00268FA2 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27942B58C4DD00268FA2 /* ItemDetail.swift */; };
+		8C2D27972B58C4E900268FA2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27962B58C4E900268FA2 /* ItemRow.swift */; };
+		8C2D27992B58C4F300268FA2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27982B58C4F300268FA2 /* MainView.swift */; };
+		8C2D279B2B58C4FD00268FA2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D279A2B58C4FD00268FA2 /* Menu.swift */; };
+		8C2D279D2B58C50800268FA2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D279C2B58C50800268FA2 /* Order.swift */; };
+		8C2D279F2B58C51300268FA2 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D279E2B58C51300268FA2 /* OrderView.swift */; };
+		8C2D27A52B58C61400268FA2 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D27A42B58C61400268FA2 /* menu.json */; };
+		8C2D27A72B58C79A00268FA2 /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D27A62B58C79A00268FA2 /* RestaurantApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +44,6 @@
 
 /* Begin PBXFileReference section */
 		8C2D27612B58C47000268FA2 /* Restaurant Ordering App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant Ordering App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C2D27642B58C47000268FA2 /* Restaurant_Ordering_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Ordering_AppApp.swift; sourceTree = "<group>"; };
 		8C2D27662B58C47000268FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C2D27682B58C47100268FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2D276B2B58C47100268FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +52,16 @@
 		8C2D277B2B58C47100268FA2 /* Restaurant Ordering AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurant Ordering AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2D277F2B58C47100268FA2 /* Restaurant_Ordering_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Ordering_AppUITests.swift; sourceTree = "<group>"; };
 		8C2D27812B58C47100268FA2 /* Restaurant_Ordering_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Ordering_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C2D278E2B58C4A500268FA2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		8C2D27902B58C4B400268FA2 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8C2D27942B58C4DD00268FA2 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		8C2D27962B58C4E900268FA2 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		8C2D27982B58C4F300268FA2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8C2D279A2B58C4FD00268FA2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8C2D279C2B58C50800268FA2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		8C2D279E2B58C51300268FA2 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		8C2D27A42B58C61400268FA2 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		8C2D27A62B58C79A00268FA2 /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,17 @@
 		8C2D27632B58C47000268FA2 /* Restaurant Ordering App */ = {
 			isa = PBXGroup;
 			children = (
-				8C2D27642B58C47000268FA2 /* Restaurant_Ordering_AppApp.swift */,
 				8C2D27662B58C47000268FA2 /* ContentView.swift */,
+				8C2D278E2B58C4A500268FA2 /* CheckoutView.swift */,
+				8C2D27902B58C4B400268FA2 /* Helper.swift */,
+				8C2D27942B58C4DD00268FA2 /* ItemDetail.swift */,
+				8C2D27962B58C4E900268FA2 /* ItemRow.swift */,
+				8C2D27982B58C4F300268FA2 /* MainView.swift */,
+				8C2D279A2B58C4FD00268FA2 /* Menu.swift */,
+				8C2D279C2B58C50800268FA2 /* Order.swift */,
+				8C2D279E2B58C51300268FA2 /* OrderView.swift */,
+				8C2D27A62B58C79A00268FA2 /* RestaurantApp.swift */,
+				8C2D27A42B58C61400268FA2 /* menu.json */,
 				8C2D27682B58C47100268FA2 /* Assets.xcassets */,
 				8C2D276A2B58C47100268FA2 /* Preview Content */,
 			);
@@ -233,6 +260,7 @@
 			files = (
 				8C2D276C2B58C47100268FA2 /* Preview Assets.xcassets in Resources */,
 				8C2D27692B58C47100268FA2 /* Assets.xcassets in Resources */,
+				8C2D27A52B58C61400268FA2 /* menu.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2D27672B58C47000268FA2 /* ContentView.swift in Sources */,
-				8C2D27652B58C47000268FA2 /* Restaurant_Ordering_AppApp.swift in Sources */,
+				8C2D27992B58C4F300268FA2 /* MainView.swift in Sources */,
+				8C2D279B2B58C4FD00268FA2 /* Menu.swift in Sources */,
+				8C2D279D2B58C50800268FA2 /* Order.swift in Sources */,
+				8C2D27A72B58C79A00268FA2 /* RestaurantApp.swift in Sources */,
+				8C2D278F2B58C4A500268FA2 /* CheckoutView.swift in Sources */,
+				8C2D27972B58C4E900268FA2 /* ItemRow.swift in Sources */,
+				8C2D27952B58C4DD00268FA2 /* ItemDetail.swift in Sources */,
+				8C2D27912B58C4B400268FA2 /* Helper.swift in Sources */,
+				8C2D279F2B58C51300268FA2 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
